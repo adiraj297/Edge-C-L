@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #000000;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1.2%;
+    margin:0;
+    overflow: hidden;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+li a {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 26px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+li a:hover {
+    background-color: #3498DB ;
+}
+
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+    background-color: #3498DB;
+}
+
+
+#googleForm {
+    margin-left: 20px;
+    text-align: center;
+}
