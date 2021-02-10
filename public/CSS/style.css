@@ -163,6 +163,10 @@ h2 {
     .nav-links {
         width: 48%;
     }
+
+    .footer {
+        position: relative;
+    }
 }
 
 
