@@ -171,9 +171,6 @@ h2 {
 
 @media (max-width: 1024px) {
 
-    .column {
-        width: 50%;
-    }
 
     .nav-links {
         width: 48%;
@@ -188,14 +185,6 @@ h2 {
         margin-bottom: 8%;
     }
 
-    .intro {
-        margin-top: 60px;
-    }
-
-    .push {
-        margin-top: 80px;
-        margin-bottom: 40px;
-    }
 
 }
 
@@ -237,30 +226,6 @@ h2 {
         transform: translate(0%);
     }
 
-    #googleForm {
-        margin-right: 50px;
-        margin-top: 20px;
-    }
-
-    .push {
-        margin: 2% -6px;
-        padding: 10px;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    .content {
-        padding: 10px;
-    }
-
-    .intro {
-        padding: 2%;
-        width: 100%;
-        margin: 10px 0;
-
-    }
 
     h2 {
         font-size: 20px;
@@ -308,10 +273,4 @@ h2 {
 }
 
 
-#googleForm {
-
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 20px;
-}
 
