@@ -89,8 +89,6 @@ li a:hover {
     width: 69%;
     padding: 20px;
     text-align: center;
-    animation-duration: 3s;
-    animation-name: fadein;
     word-break: break-word;
 
 }
@@ -101,6 +99,7 @@ h2 {
     letter-spacing: 3px;
     text-transform: capitalize;
 }
+
 
 .row {
     margin: 10px -14px;
@@ -138,6 +137,22 @@ h2 {
     margin-top: 2%;
 }
 
+.middle {
+
+    border: 5px solid black;
+    background-color: white;
+    margin-top: 8%;
+    margin-left: 14%;
+    font-family: 'Open Sans', sans-serif;
+    width: 69%;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
 .footer {
     position: fixed;
     left: 0;
@@ -167,6 +182,21 @@ h2 {
     .footer {
         position: relative;
     }
+
+    .middle {
+        margin-top: 18%;
+        margin-bottom: 8%;
+    }
+
+    .intro {
+        margin-top: 60px;
+    }
+
+    .push {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
 }
 
 
@@ -239,6 +269,15 @@ h2 {
 
     .footer {
         position: relative;
+    }
+
+    .middle {
+        width: 72%;
+        padding: 10px;
+    }
+
+    h3 {
+        word-break: break-word;
     }
 
 
