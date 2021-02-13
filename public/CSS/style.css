@@ -253,6 +253,10 @@ h2 {
         word-break: break-word;
     }
 
+    .logo {
+        font-size: 21%;
+    }
+
 
 }
 
