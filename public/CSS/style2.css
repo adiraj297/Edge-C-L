@@ -232,17 +232,14 @@ h2 {
         word-break: break-word;
     }
 
-    .logo {
-        font-size: 21%;
-    }
 
     .footer {
         position: relative;
     }
 
     .middle {
-        width: 72%;
-        padding: 10px;
+        width: 100%;
+        margin: 0;
     }
 
     h3 {
